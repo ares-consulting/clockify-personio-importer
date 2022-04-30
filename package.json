@@ -1,0 +1,33 @@
+{
+  "name": "clockify-personio-importer",
+  "version": "0.1.0",
+  "bin": {
+    "clockify-personio-importer": "bin/clockify-personio-importer.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.95",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "2.22.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.154.0",
+    "@aws-cdk/aws-stepfunctions": "^1.154.0",
+    "@aws-cdk/aws-stepfunctions-tasks": "^1.154.0",
+    "aws-cdk-lib": "2.22.0",
+    "aws-sdk": "^2.1125.0",
+    "axios": "^0.27.2",
+    "constructs": "^10.0.0"
+  }
+}
